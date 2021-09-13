@@ -9,7 +9,7 @@ client = commands.Bot(command_prefix = 's!')
 @client.event
 async def on_ready():
     await client.change_presence(status=discord.Status.online,
-    activity=discord.Game(f"Type \'s!help\' to get the list of commands"))
+    activity=discord.Stream(f"Type \'s!help\' to get the list of commands"))
     print('Autotrue has connected to Discord!')
     
 @client.command()
