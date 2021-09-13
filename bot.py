@@ -14,7 +14,7 @@ async def on_ready():
     
 @client.command()
 async def ping(ctx):
-    await ctx.send(f'Pong! Client side ping is {round(client.latency * 1000)}ms!')
+    await ctx.send(f'Client side ping is {round(client.latency * 1000)}ms!')
 
 @client.command()
 async def unload(ctx, extension):
