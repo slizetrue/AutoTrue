@@ -11,7 +11,7 @@ class Social(commands.Cog):
 
     @commands.command()
     async def twitch(self, ctx):
-        await ctx.send(f'https://www.twitch.tv/slizetrue')
+        await ctx.send(f'https://www.twitch.tv/slizelive')
 
 
 def setup(client):
