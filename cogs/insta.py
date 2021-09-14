@@ -11,7 +11,7 @@ class Social(commands.Cog):
 
     @commands.command()
     async def ig(self, ctx):
-        await ctx.send(f'https://www.instagram.com/slizetrue/')
+        await ctx.send(f'https://www.instagram.com/slizelive/')
 
 
 def setup(client):
