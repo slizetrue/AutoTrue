@@ -11,7 +11,7 @@ class Social(commands.Cog):
 
     @commands.command()
     async def twt(self, ctx):
-        await ctx.send(f'https://twitter.com/slizetrue')
+        await ctx.send(f'https://twitter.com/slizelive')
 
 
 def setup(client):
